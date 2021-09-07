@@ -10,6 +10,7 @@ body{
     padding: 0px;
     list-style: none;
     text-decoration: none;
+    overflow-x: hidden;
 }
 
 .sidebar{
@@ -116,9 +117,9 @@ section{
 #logo{
     position: absolute;
     right: auto;
-    left: 220px;
+    left: 22px;
     width: 120px;
-    top: 7px;
+    top: 23px;
     height: auto;
 }
 
