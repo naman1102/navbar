@@ -125,6 +125,12 @@ section{
 #navbar{
     display: none;
 }
+
+footer{
+    display: block;
+    text-align: center;
+}
+
 @media screen and (min-width:740px) {
     .sidebar{
         display: none;
