@@ -10,7 +10,6 @@ body{
     padding: 0px;
     list-style: none;
     text-decoration: none;
-    overflow-x: hidden;
 }
 
 .sidebar{
@@ -132,7 +131,10 @@ footer{
     text-align: center;
 }
 
-@media screen and (min-width:740px) {
+@media screen and (min-width:865px) {
+    body{
+        overflow-x: hidden;
+    }
     .sidebar{
         display: none;
     }
