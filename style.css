@@ -76,9 +76,8 @@ label #btn{
 }
 
 label #cancel{
-    z-index: 1111;
-    right: -195px;
-    left:auto;
+    z-index: 1;
+    left: -195px;
     top: 17px;
     font-size: 30px;
     color: #0a5275;
@@ -97,7 +96,8 @@ label #cancel{
 }
 
 #check:checked ~ label #cancel{
-    right: 195px;
+    left: auto;
+    right: 22%;
 }
 
 #check:checked ~ section{
@@ -198,4 +198,35 @@ footer{
     top: 17px;
     height: auto;
     }
+
+    #check:checked ~ label #cancel{
+    left: auto;
+    right: 22%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    
+    #logo{
+    position: absolute;
+    right: auto;
+    left: 16px;
+    width: 90px;
+    top: 17px;
+    height: auto;
+    }
+
+    section{
+    background: url(bg2.jpg) no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 100vh;
+    transition: all .5s;
+    }
+    
+    #check:checked ~ label #cancel{
+    left: auto;
+    right: 48%;
+    }
+
 }
