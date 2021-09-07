@@ -117,7 +117,7 @@ section{
     position: absolute;
     right: auto;
     left: 220px;
-    width: 13%;
+    width: 120px;
     top: 7px;
     height: auto;
 }
@@ -185,5 +185,14 @@ footer{
     }
     .item3{
         margin: 10px;
+    }
+
+    #logo{
+    position: absolute;
+    right: auto;
+    left: 220px;
+    width: 200px;
+    top: 17px;
+    height: auto;
     }
 }
